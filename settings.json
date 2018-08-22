@@ -1,0 +1,59 @@
+{
+  // Controls the font size in pixels.
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Menlo",
+  "css.validate": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.tabSize": 2,
+  "editor.autoIndent": true,
+  "editor.insertSpaces": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "off",
+  "editor.wordSeparators": "./\\()\\'-:,.;<>~!@#%^&*|+=[]{}`~?",
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "all",
+  "files.associations": {
+    "*.inc": "php",
+    "*.module": "php",
+    "*.install": "php",
+    "*.theme": "php",
+    "*.tpl.php": "php",
+    "*.test": "php",
+    "*.php": "php",
+    "*.html": "twig",
+  },
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 80,
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  // PHP Intellisence
+  "php.suggest.basic": false,
+  "php.executablePath": "/Applications/MAMP/bin/php/php7.1.12/bin/php",
+  // PHP CodeSniffer
+  "phpcs.enable": true,
+  "phpcs.standard": "/Users/shikanosuke/.composer/vendor/drupal/coder/coder_sniffer/Drupal",
+  // Validate PHP
+  "php.validate.enable": true,
+  "php.validate.executablePath": "/Applications/MAMP/bin/php/php7.1.12/bin/php",
+  "php.validate.run": "onType",
+  // PHP Docblocker
+  "php-docblocker.gap": true,
+  "php-docblocker.useShortNames": true,
+  // PHPfmt
+  "phpfmt.indent_with_space": 2,
+  "phpfmt.php_bin": "/Applications/MAMP/bin/php/php7.1.12/bin/php",
+  "phpfmt.passes": [
+    "PSR2LnAfterNamespace",
+    "PSR2ModifierVisibilityStaticOrder",
+    "PSR2SingleEmptyLineAndStripClosingTag",
+    "ReindentSwitchBlocks"
+  ],
+  "phpfmt.exclude": [
+    "ReindentComments",
+    "StripNewlineWithinClassBody"
+  ],
+  "phpfmt.psr2": false
+}
